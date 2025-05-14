@@ -60,6 +60,14 @@
     align-items: center;
     gap: 20px;
 }
+.contact-detail a{
+    text-decoration: none;
+    color: white;
+}
+.contact-detail a:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 
 .contact-right{
     display: flex;
@@ -139,10 +147,7 @@
         text-decoration: none;
         color: white;
     }
-    .contact-detail a:hover{
-        transform: scale(1.05);
-        transition: 0.3s;
-    }
+    
     .contact-detail img{
         width: 25px;
     }

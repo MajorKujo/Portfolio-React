@@ -52,8 +52,7 @@ const Contact = () => {
                         {/* add call icon  */}
                     </div>
                     <div className="contact-detail">
-                        <LinkedIn style={{width: 14, height: 14,fill:'white'}}/> <a href="https://www.linkedin.com/in/mishal-joe-3903b0273" target="_blank"
-    rel="noopener noreferrer"><p>Mishal Joe</p></a>
+                        <LinkedIn style={{width: 14, height: 14,fill:'white'}}/><a href="https://www.linkedin.com/in/mishal-joe-3903b0273" target="_blank" rel="noopener noreferrer"><p>Mishal Joe</p></a>
                         {/* add linkedin icon  */}
                     </div>
                     {/* <div className="contact-detail">

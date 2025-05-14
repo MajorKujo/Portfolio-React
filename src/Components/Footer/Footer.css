@@ -38,6 +38,7 @@
 }
 .footer-subscribe{
     font-size: 20px;
+    margin-right: 20px;
     padding: 22px 50px;
     border-radius: 50px;
     background: linear-gradient(267deg, orange 0.36%, violet 0.64%);

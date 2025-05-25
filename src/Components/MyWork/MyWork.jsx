@@ -13,7 +13,9 @@ const MyWork = () => {
         <div className="mywork-container">
              {mywork_data.map(({w_no,w_image,w_name,w_link})=>{
                 return <a href={w_link} target="_blank"
-    rel="noopener noreferrer"><img key={w_no} src={w_image} alt="" /></a>
+                          rel="noopener noreferrer"><img key={w_no} src={w_image} alt="" />
+                          <h3>{w_name}</h3>
+                        </a>
              })}
         </div>
         {/*<div className="mywork-showmore">

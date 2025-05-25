@@ -24,8 +24,10 @@
 
 .mywork-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
+    text-decoration: none;
+    text-align: center;
 }
 .mywork-container img{
     box-sizing: border-box;
@@ -33,6 +35,15 @@
     /* height: 280px; */
     transition: 0.3s;
     cursor: pointer;
+}
+.mywork-container h3{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.mywork-container a{
+    text-decoration: none;
 }
 .mywork-container img:hover{
     transform: scale(1.10);
@@ -74,12 +85,19 @@
         margin-right: -20px;
     }
     .mywork-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 30px;
     }
     .mywork-container img{
         width: 100%;
         height: 100%;
+    }
+    .mywork-container h3{
+        padding: 0px;
+        margin: 0px;
+    }
+    .mywork-container a{
+        text-decoration: none;
     }
     .mywork-showmore{
         padding: 20px 40px;
